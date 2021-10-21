@@ -1,0 +1,31 @@
+
+.commentNav {
+  gap: 10px;
+  display: flex;
+  color: rgb(117, 117, 117);
+  align-items: center;
+}
+.firstInner {
+  display: flex;
+}
+.outer {
+  padding-top: 35px;
+  margin-left: 55px;
+  width: auto;
+    padding-left: 20px;
+    border-left: 2px solid black;
+  }
+  .replyBox {
+    display: flex;
+  }
+  h3 {
+    margin-top: 0;
+    cursor: pointer;
+    text-align: left;
+  }
+  .firstInner > p,
+  .commentNav > p {
+    margin-top: 0;
+    cursor: pointer;
+    margin-right: 10px;
+  }
